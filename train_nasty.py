@@ -12,7 +12,9 @@ import os
 import logging
 import numpy as np
 
-from utils.utils import RunningAverage, set_logger, Params
+from utils import*
+
+# from utils.utils import RunningAverage, set_logger, Params
 from model import *
 from data_loader import fetch_dataloader
 
